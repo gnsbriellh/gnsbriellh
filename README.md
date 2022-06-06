@@ -42,7 +42,7 @@
 
 <div>
     <h2>📋 My GitHub Stats</h2>
-    <img src="https://i.ibb.co/wQnqk32/fullbody-pointing-fococlipping-standard.png" alt="Avatar pointing to the right" title="Avatar" align="left" width="340" height="510">
+    <img src="https://i.ibb.co/wQnqk32/fullbody-pointing-fococlipping-standard.png" alt="Avatar pointing to the right" title="Avatar" align="left" width="272" height="408">
     <img src="https://github-readme-stats.vercel.app/api?username=gnsbriellh&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub - Readme Stats" title="GitHub Stats" height="180em">
     <img src="http://github-readme-streak-stats.herokuapp.com?user=gnsbriellh&theme=dracula&hide_border=true" alt="GitHub - Readme Stats" title="Contributions" height="180em">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnsbriellh&layout=compact&langs_count=7&theme=dracula&hide_border=true&card_width=242" alt="GitHub - Readme Stats" title="Most Used Languages" height="180em">
