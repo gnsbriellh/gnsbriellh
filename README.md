@@ -7,7 +7,7 @@
 </details>
 
 <!-- ENGLISH -->   
-<img align="right" width="250px" style="margin-top:-20px" src="https://avatars.githubusercontent.com/u/106001507?v=4">
+<a href="https://github.com/gnsbriellh"><img align="right" width="250px" style="margin-top:-20px" src="https://avatars.githubusercontent.com/u/106001507?v=4"></a>
 
 <div>
     <h1 align="left">👋🏽 Hello! Welcome to my GitHub profile.</h1>
@@ -17,7 +17,7 @@
 
 <div>
     <br>
-    <p align="center"><img width="450" height="200" src="https://miro.medium.com/max/1400/1*jB76MLZjiNhGSQQvxm7LSQ.gif"></img><p/>
+    <p align="center"><a href="https://github.com/gnsbriellh"><img width="450" height="200" src="https://miro.medium.com/max/1400/1*jB76MLZjiNhGSQQvxm7LSQ.gif"></a><p/>
 </div>
 
 <h2>💻 Tools and Technologies</h2>
@@ -36,8 +36,8 @@
 <div>
     <h2>👀 About me</h2>
     <ul>
-        <li>❣️ Fun fact: I love to play volleyball, chess and work-out.</li>
-        <li>🎯 I'm aiming to learn TypeScript.</li>
+        <li>❣️ I love to play volleyball, chess and work-out.</li>
+        <li>🎯 I'm aiming to learn Python.</li>
         <li>🎮 I love playing video games in my spare time.</li>
     </ul>
     <br>
@@ -46,10 +46,10 @@
 <h2>📋 My GitHub Stats</h2>
 
 <div>
-    <a href="https://ibb.co/t206Gk1"><img width="" height="" align="left" src="https://i.ibb.co/wQnqk32/fullbody-pointing-fococlipping-standard.png" alt="fullbody-pointing-fococlipping-standard" border="0"></a>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=gnsbriellh&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true"/>
-    <img height="180em" src="http://github-readme-streak-stats.herokuapp.com?user=gnsbriellh&theme=dracula&hide_border=true"/>
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnsbriellh&layout=compact&langs_count=7&theme=dracula&hide_border=true&card_width=242"/>
+    <a href="https://github.com/gnsbriellh"><img src="https://i.ibb.co/wQnqk32/fullbody-pointing-fococlipping-standard.png" alt="fullbody-pointing-fococlipping-standard" align="left"></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api?username=gnsbriellh&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub - Readme Status" height="180em" title="GitHub Stats"></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img src="http://github-readme-streak-stats.herokuapp.com?user=gnsbriellh&theme=dracula&hide_border=true" alt="GitHub - Readme Status" height="180em" title="Contributions"></a>
+    <a href="https://github.com/anuraghazra/github-readme-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gnsbriellh&layout=compact&langs_count=7&theme=dracula&hide_border=true&card_width=242" alt="GitHub - Readme Status" height="180em" title="Most Used Languages"></a>
     <br><br><br>
 </div>
 
