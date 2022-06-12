@@ -19,7 +19,7 @@
         <summary>Versão em Português (Clique Aqui)</summary>
         <div align="left">
             <img src="https://avatars.githubusercontent.com/u/106001507?v=4" alt="Profile Picture" title="Avatar" width="250px" align="right">
-            <h1>👋🏽 Olá! Bem vindo ao meu perfil do GitHub.</h1>
+            <h1>👋🏽 Olá! Bem vindo ao meu perfil do GitHub!</h1>
             <h3>Meu nome é Gabriel mas se preferir, pode me chamar de Briel.</h3>
             <p>Tenho 21 anos, moro em São Paulo. Sou estudante do primeiro ano de Engenharia da Computação, minha paixão por Programação e Hardware me levaram para o Centro Universitário Internacional - Uninter, onde estou em busca do meu Bacharelado.<br>Atualmente estou trabalhando em um projeto pessoal, na qual busco criar meu primerio Site Pessoal enquanto aprendo HTML, CSS e JavaScript.</p>
         </div>
