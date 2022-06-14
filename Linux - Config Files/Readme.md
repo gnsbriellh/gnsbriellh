@@ -29,8 +29,7 @@
     && cd ~/Desktop \
     && yes | rm -r McMojave-cursors \
     && clear && echo Installing Apps... && sleep 3 \
-    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes \
-    && sudo apt install piper --yes || true \
+    && sudo apt install piper --yes \
     && clear && echo installing NVM ... && sleep 5 \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
     && clear \
