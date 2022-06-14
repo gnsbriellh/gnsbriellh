@@ -50,53 +50,50 @@
 
 <div>
     <h1> Apps </h1>
-    <h5><strong><a href="https://git-scm.com/download/linux">Git</a></strong></h5>
+    <p>The following Commands will install:</p>
+    <ol>
+        <li><a href="https://git-scm.com/download/linux">Git</a></li>
+        <li><a href="https://code.visualstudio.com/Download">VSCode</a></li>
+        <li><a href="https://store.steampowered.com/about/">Steam</a></li>
+        <li><a href="">Piper</a></li>
+        <li><a href="">NVM (Node Version Manager)</a></li>
+    </ol>
 
     \
-    sudo apt install \
-    git \
-    code \
-    steam \
-    piper \
+    sudo apt install git \
+    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git\
+    && sudo apt install piper --yes\
+    && clear && echo installing NVM ... && sleep 5  \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
-    && \
-    export NVM_DIR="$HOME/.nvm"
-    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-    [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-
+    && clear \
+    && echo /////////////////////////////////////////// \
+    && echo / Reload the terminal to start using NVM. / \
+    && echo /////////////////////////////////////////// \
+    && sleep 5 && clear \
+    && echo //////////////////////////////////////////////////////////// \
+    && echo / Your browser will now open to install the last programs. / \
+    && echo //////////////////////////////////////////////////////////// \
+    && sleep 5 && clear \
+    && sensible-browser \
+    https://store.steampowered.com/about/ \
+    https://code.visualstudio.com/Download \
+    && exit
+    
 </div>
 
-
-
-
-
-
-
-
-
-
 <div>
-
-
-
-5 - 
-
-- ""
-NVM (NodeJS and NPM) - "curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash"
-VSCode				 - "sudo apt install code"
-Steam				 - "sudo apt install steam"	
-Piper				 - "sudo apt install piper"
-
-6 - Extentions
-
-ArcMenu				 - "https://extensions.gnome.org/extension/3628/arcmenu/"
-Requirements: "sudo apt install gir1.2-gmenu-3.0"
-Lock Keys			 - "https://extensions.gnome.org/extension/36/lock-keys/"
-OpenWeather   		 - "https://extensions.gnome.org/extension/750/openweather/"
-Removable Drive Menu - "https://extensions.gnome.org/extension/7/removable-drive-menu/"
-Extension List		 - "https://extensions.gnome.org/extension/3088/extension-list/"
-Sound Input/output 	 - "https://extensions.gnome.org/extension/906/sound-output-device-chooser/"
-User Themes			 - "https://extensions.gnome.org/extension/19/user-themes/"
-Dash to Dock		 - "https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/"
-Blur my Shell		 - "https://extensions.gnome.org/extension/3193/blur-my-shell/"
+    <h1> Extentions </h1>
+    <p> Some usefull and visual extentions </p>
+    <ul>
+        <li><a href="https://extensions.gnome.org/extension/3628/arcmenu/">ArcMenu</a></li>
+            <ul><li>Requirements: <code>"sudo apt install gir1.2-gmenu-3.0"</code></li></ul>
+        <li><a href="https://extensions.gnome.org/extension/36/lock-keys/">Lock Keys</a></li>
+        <li><a href="https://extensions.gnome.org/extension/750/openweather/">OpenWeather</a></li>
+        <li><a href="https://extensions.gnome.org/extension/7/removable-drive-menu/">Removable Drive Menu</a></li>
+        <li><a href="https://extensions.gnome.org/extension/3088/extension-list/">Extension List</a></li>
+        <li><a href="https://extensions.gnome.org/extension/906/sound-output-device-chooser/">Sound Input/output</a></li>
+        <li><a href="https://extensions.gnome.org/extension/19/user-themes/">User Themes</a></li>
+        <li><a href="https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/">Dash to Dock</a></li>
+        <li><a href="https://extensions.gnome.org/extension/3193/blur-my-shell/">Blur my Shell</a></li>
+    </ul>
+</div>
