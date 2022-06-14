@@ -6,7 +6,7 @@
     && sudo apt update --yes && sudo apt upgrade --yes \
     && clear && echo System Updated and Upgraded && slep 3 \
     && clear && echo Installing Git... && sleep 3 \
-    && sudo apt install git --yes\
+    && sudo apt install git --yes \
     && clear && echo Installing Theme... && sleep 3 \
     && cd ~/Desktop \
     && git clone https://github.com/vinceliuice/WhiteSur-gtk-theme \
@@ -29,9 +29,9 @@
     && cd ~/Desktop \
     && yes | rm -r McMojave-cursors \
     && clear && echo Installing Apps... && sleep 3 \
-    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes\
-    && sudo apt install piper --yes\
-    && clear && echo installing NVM ... && sleep 5  \
+    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes \
+    && sudo apt install piper --yes \
+    && clear && echo installing NVM ... && sleep 5 \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
     && clear \
     && echo /////////////////////////////////////////// \
