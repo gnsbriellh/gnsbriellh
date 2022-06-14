@@ -30,6 +30,7 @@
     && yes | rm -r McMojave-cursors \
     && clear && echo Installing Apps... && sleep 3 \
     && sudo apt install piper --yes \
+    && sudo apt install google-chrome-stable --yes \
     && clear && echo installing NVM ... && sleep 5 \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
     && clear \
@@ -120,8 +121,8 @@
 
     \
     sudo apt install git --yes\
-    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes\
     && sudo apt install piper --yes\
+    && sudo apt install google-chrome-stable --yes \
     && clear && echo installing NVM ... && sleep 5  \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
     && clear \
