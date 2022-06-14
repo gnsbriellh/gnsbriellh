@@ -1,3 +1,59 @@
+<details>
+    <summary>All-In-One</summary>
+
+    \
+    && clear && echo Updating... && sleep 3 \
+    && sudo apt update --yes && sudo apt upgrade --yes \
+    && clear && echo System Updated and Upgraded && slep 3 \
+    \
+    && clear && echo Installing Git... && sleep 3 \
+    && sudo apt install git --yes\
+    \
+    && clear && echo Installing Theme... && sleep 3 \
+    && cd ~/Desktop \
+    && git clone https://github.com/vinceliuice/WhiteSur-gtk-theme \
+    && cd WhiteSur-gtk-theme \
+    && ./install.sh \
+    && cd ~/Desktop \
+    && yes | rm -r WhiteSur-gtk-theme \
+    \
+    && clear && echo Installing Icons... && sleep 3 \
+    && cd ~/Desktop \
+    && git clone https://github.com/vinceliuice/Tela-icon-theme \
+    && cd Tela-icon-theme \
+    && ./install.sh \
+    && cd ~/Desktop \
+    && yes | rm -r Tela-icon-theme \
+    \
+    && clear && echo Installing Cursor... && sleep 3 \
+    && cd ~/Desktop \
+    && git clone https://github.com/vinceliuice/McMojave-cursors \
+    && cd McMojave-cursors \
+    && ./install.sh \
+    && cd ~/Desktop \
+    && yes | rm -r McMojave-cursors \
+    \
+    && clear && echo Installing Apps... && sleep 3 \
+    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes\
+    && sudo apt install piper --yes\
+    && clear && echo installing NVM ... && sleep 5  \
+    && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
+    && clear \
+    && echo /////////////////////////////////////////// \
+    && echo / Reload the terminal to start using NVM. / \
+    && echo /////////////////////////////////////////// \
+    && sleep 5 && clear \
+    && echo //////////////////////////////////////////////////////////// \
+    && echo / Your browser will now open to install the last programs. / \
+    && echo //////////////////////////////////////////////////////////// \
+    && sleep 5 && clear \
+    && sensible-browser \
+    https://store.steampowered.com/about/ \
+    https://code.visualstudio.com/Download \
+    && exit
+    
+</details>
+
 <div>
     <h1>Right After Install</h1>
     <p>Run the code below to Update the App repository and OS</p>
@@ -55,13 +111,13 @@
         <li><a href="https://git-scm.com/download/linux">Git</a></li>
         <li><a href="https://code.visualstudio.com/Download">VSCode</a></li>
         <li><a href="https://store.steampowered.com/about/">Steam</a></li>
-        <li><a href="">Piper</a></li>
-        <li><a href="">NVM (Node Version Manager)</a></li>
+        <li><a href="https://github.com/libratbag/piper">Piper</a></li>
+        <li><a href="https://github.com/nvm-sh/nvm">NVM (Node Version Manager)</a></li>
     </ol>
 
     \
-    sudo apt install git \
-    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git\
+    sudo apt install git --yes\
+    && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes\
     && sudo apt install piper --yes\
     && clear && echo installing NVM ... && sleep 5  \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
