@@ -4,7 +4,7 @@
     \
     clear && echo Updating... && sleep 3 \
     && sudo apt update --yes && sudo apt upgrade --yes \
-    && clear && echo System Updated and Upgraded && slep 3 \
+    && clear && echo System Updated and Upgraded && sleep 3 \
     && clear && echo Installing Git... && sleep 3 \
     && sudo apt install git --yes \
     && clear && echo Installing Theme... && sleep 3 \
