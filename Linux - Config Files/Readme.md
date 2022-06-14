@@ -30,7 +30,7 @@
     && yes | rm -r McMojave-cursors \
     && clear && echo Installing Apps... && sleep 3 \
     && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes \
-    && sudo apt install piper --yes \
+    && sudo apt install piper --yes || true \
     && clear && echo installing NVM ... && sleep 5 \
     && curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash \
     && clear \
@@ -45,8 +45,17 @@
     && sensible-browser \
     https://store.steampowered.com/about/ \
     https://code.visualstudio.com/Download \
+    https://extensions.gnome.org/extension/3628/arcmenu/ \
+    https://extensions.gnome.org/extension/36/lock-keys/ \
+    https://extensions.gnome.org/extension/750/openweather/ \
+    https://extensions.gnome.org/extension/7/removable-drive-menu/ \
+    https://extensions.gnome.org/extension/3088/extension-list/ \
+    https://extensions.gnome.org/extension/906/sound-output-device-chooser/ \
+    https://extensions.gnome.org/extension/19/user-themes/ \
+    https://github.com/home-sweet-gnome/dash-to-panel \
+    https://extensions.gnome.org/extension/3193/blur-my-shell/ \
     && exit
-    
+
 </details>
 
 <div>
@@ -144,7 +153,7 @@
         <li><a href="https://extensions.gnome.org/extension/3088/extension-list/">Extension List</a></li>
         <li><a href="https://extensions.gnome.org/extension/906/sound-output-device-chooser/">Sound Input/output</a></li>
         <li><a href="https://extensions.gnome.org/extension/19/user-themes/">User Themes</a></li>
-        <li><a href="https://extensions.gnome.org/extension/5004/dash-to-dock-for-cosmic/">Dash to Dock</a></li>
+        <li><a href="https://github.com/home-sweet-gnome/dash-to-panel">Dash to Panel</a></li>
         <li><a href="https://extensions.gnome.org/extension/3193/blur-my-shell/">Blur my Shell</a></li>
     </ul>
 </div>
