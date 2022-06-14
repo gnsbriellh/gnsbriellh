@@ -5,10 +5,8 @@
     && clear && echo Updating... && sleep 3 \
     && sudo apt update --yes && sudo apt upgrade --yes \
     && clear && echo System Updated and Upgraded && slep 3 \
-    \
     && clear && echo Installing Git... && sleep 3 \
     && sudo apt install git --yes\
-    \
     && clear && echo Installing Theme... && sleep 3 \
     && cd ~/Desktop \
     && git clone https://github.com/vinceliuice/WhiteSur-gtk-theme \
@@ -16,7 +14,6 @@
     && ./install.sh \
     && cd ~/Desktop \
     && yes | rm -r WhiteSur-gtk-theme \
-    \
     && clear && echo Installing Icons... && sleep 3 \
     && cd ~/Desktop \
     && git clone https://github.com/vinceliuice/Tela-icon-theme \
@@ -24,7 +21,6 @@
     && ./install.sh \
     && cd ~/Desktop \
     && yes | rm -r Tela-icon-theme \
-    \
     && clear && echo Installing Cursor... && sleep 3 \
     && cd ~/Desktop \
     && git clone https://github.com/vinceliuice/McMojave-cursors \
@@ -32,7 +28,6 @@
     && ./install.sh \
     && cd ~/Desktop \
     && yes | rm -r McMojave-cursors \
-    \
     && clear && echo Installing Apps... && sleep 3 \
     && sudo apt-add-repository ppa:libratbag-piper/piper-libratbag-git --yes\
     && sudo apt install piper --yes\
