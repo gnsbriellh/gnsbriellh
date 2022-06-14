@@ -2,7 +2,7 @@
     <summary>All-In-One</summary>
 
     \
-    && clear && echo Updating... && sleep 3 \
+    clear && echo Updating... && sleep 3 \
     && sudo apt update --yes && sudo apt upgrade --yes \
     && clear && echo System Updated and Upgraded && slep 3 \
     && clear && echo Installing Git... && sleep 3 \
