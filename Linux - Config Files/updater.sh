@@ -31,15 +31,15 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 
 ## Download/Install Themes/Icons ##
 
-git clone https://github.com/vinceliuice/WhiteSur-gtk-theme
-git clone https://github.com/vinceliuice/McMojave-cursors
-git clone https://github.com/vinceliuice/Tela-icon-theme
+git clone https://github.com/vinceliuice/WhiteSur-gtk-theme ;
 /home/$USER/Downloads/UpdaterDownloads/WhiteSur-gtk-theme/install.sh
-cd ..
-/home/$USER/Downloads/UpdaterDownloads/Tela-icon-theme/install.sh
-cd ..
+
+git clone https://github.com/vinceliuice/McMojave-cursors ;
 /home/$USER/Downloads/UpdaterDownloads/McMojave-cursors/install.sh
-cd ..
+
+git clone https://github.com/vinceliuice/Tela-icon-theme ;
+/home/$USER/Downloads/UpdaterDownloads/Tela-icon-theme/install.sh
+
 
 ## Remove UpdaterDownloads Folder ##
 
@@ -54,4 +54,3 @@ https://extensions.gnome.org/extension/7/removable-drive-menu/ \
 https://extensions.gnome.org/extension/906/sound-output-device-chooser/ \
 https://extensions.gnome.org/extension/19/user-themes/ \
 https://extensions.gnome.org/extension/3193/blur-my-shell/ 
-
