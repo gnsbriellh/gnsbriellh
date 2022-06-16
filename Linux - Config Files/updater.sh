@@ -8,9 +8,10 @@ sudo apt update --yes ; sudo apt upgrade --yes ;
 
 sudo apt install snapd --yes
 sudo apt install git --yes
-sudo apt install ubuntu-restricted-extras --yes
+#sudo apt install ubuntu-restricted-extras --yes
 sudo apt install piper --yes
 sudo apt install virtualbox --yes
+sudo apt install gparted --yes
 sudo apt install steam --yes
 sudo apt install code --yes
 sudo apt install gnome-tweaks --yes
