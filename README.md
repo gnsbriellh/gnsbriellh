@@ -36,6 +36,7 @@
             <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Icon" title="GitHub" width="40" height="40"></code>
             <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS Icon" title="NodeJS" width="40" height="40"></code>
             <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode Icon" title="VSCode" width="40" height="40"></code>
+            <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux Icon" title="Linux" width="40" height="40"/></code>            
             <br><br>
         </div>
         <div>
@@ -89,6 +90,7 @@
             <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Icon" title="GitHub" width="40" height="40"></code>
             <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS Icon" title="NodeJS" width="40" height="40"></code>
             <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VSCode Icon" title="VSCode" width="40" height="40"></code>
+            <code><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux Icon" title="Linux" width="40" height="40"/></code> 
             <br><br>
         </div>
         <div>
